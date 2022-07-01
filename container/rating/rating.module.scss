@@ -1,0 +1,79 @@
+@import '../../styles/mixen';
+.flexcontainer {
+  justify-content: space-between;
+}
+
+.star {
+  color: blue;
+  position: relative;
+}
+.section {
+  width: 50%;
+  .link {
+    padding-left: 30px;
+    color: $link_color;
+    font-weight: bold;
+    font-family: $lato;
+    margin-top: 10px;
+    display: block;
+    font-size: 15px;
+  }
+}
+.rating {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  justify-content: start !important;
+  padding-top: 61px;
+
+  justify-content: start !important;
+  p {
+    margin: 0;
+    color: $gray;
+    font-family: $lato;
+  }
+  & .viwemore {
+    padding-left: 100px;
+  }
+}
+.rating_item {
+  width: 100%;
+  // background-color: red;
+  margin: 0 10px 32px;
+  width: 70%;
+  padding: 0 10px;
+
+  & .rating_img {
+    justify-content: start;
+    div:nth-child(1) {
+      padding-top: 10px;
+    }
+    div:nth-child(2) {
+      padding-left: 10px;
+      h4 {
+        font-size: 20px;
+        margin: 5px 0;
+        color: $black;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+.star {
+  justify-content: start !important;
+  align-items: flex-start !important;
+  align-content: flex-start;
+  div:nth-child(2) {
+    padding-left: 10px;
+    & h4 {
+      font-size: 15px;
+      margin: 0;
+      padding-left: 0px;
+      color: $gray;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none !important;
+}
+.container {
+  @media screen and (min-width: 576px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.section_title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.block_title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  margin: 0 auto 35px;
+}

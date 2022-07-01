@@ -1,0 +1,14 @@
+@import '../../styles/mixen';
+.block_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: $tweb;
+  font-size: 20px;
+  a {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #17a288;
+    font-family: $tweb;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,44 @@
+@import '../../styles/mixen';
+.imgs {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px
+    1px 4px;
+  padding: 30px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-family: $roboto;
+
+  h1 {
+    font-size: 30px;
+    margin: 10px auto;
+  }
+}
+
+.RequestABook {
+  width: 500px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px
+    1px 4px;
+  margin: 0 20px;
+  text-align: center;
+  padding: 0 35px;
+
+  h4 {
+    margin: 15px auto 25px auto;
+  }
+  .input {
+    justify-content: space-between !important;
+  }
+  .book_name {
+    margin: 22px auto;
+    display: block;
+  }
+  // button {
+  //   background-color: blue;
+  //   color: white;
+  // }
+}

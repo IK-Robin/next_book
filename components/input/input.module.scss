@@ -1,0 +1,21 @@
+.input {
+  background-color: #ffffff;
+  margin: 0 auto;
+  label {
+    display: block;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+  }
+  input {
+    width: 100%;
+    height: auto;
+    border-radius: 3px #dfe0e4;
+
+    display: block;
+    padding: 6px 8px;
+    height: 36px;
+    font: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px
+      1px 4px;
+  }
+}

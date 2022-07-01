@@ -1,0 +1,36 @@
+@import '../styles/mixen';
+.footer {
+  box-shadow: $boxShadow1;
+  margin: 50px auto;
+  background-color: #515151;
+  color: $white;
+  padding: 50px 20px;
+  .copy {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+  }
+}
+.footerTop {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  div {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+}
+.footerText {
+  width: 50%;
+  text-shadow: center;
+  margin: 0 auto 20px;
+}
+.social {
+  svg {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
