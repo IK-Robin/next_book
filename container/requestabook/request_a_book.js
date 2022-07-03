@@ -10,21 +10,25 @@ function RequestABook() {
   return (
     <Container fluid>
       <Container>
-        <div className='block_title title '>
+        <div className="block_title title ">
           <H4
             text={'Request for  a Book'}
-         
           />
         </div>
         <div
           className={`styled.RequestABook app__flex`}
         >
           <div className={styled.imgs}>
-         <h1 > Get every books  </h1>
-         <h1 >  you want </h1>
-         <h1>Just type your books Name</h1>
-         <h1> here </h1>
-         <h1> book as soon as possiple</h1>
+            <h1> Get every books </h1>
+            <h1> you want </h1>
+            <h1>
+              Just type your books Name
+            </h1>
+            <h1> here </h1>
+            <h1>
+            
+              book as soon as possiple
+            </h1>
           </div>
           <div
             className={` ${styled.RequestABook}`}
@@ -38,13 +42,13 @@ function RequestABook() {
               <div
                 className={`app__flex ${styled.input}`}
               >
-                <Ginput 
+                <Ginput
                   label={'First name'}
                 />{' '}
                 <Ginput
                   label={'Last Name'}
                 />
-              </div> 
+              </div>
 
               <div
                 className={

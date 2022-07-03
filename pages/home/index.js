@@ -1,11 +1,10 @@
-import Link from "next/link"
 
 function Home () {
   return (
     <div>home
-    <Link href={'/'}>
+    {/* <Link href={'/'}>
       <a> go to home</a> 
-    </Link>
+    </Link> */}
   </div>
   )
 }

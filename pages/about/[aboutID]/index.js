@@ -7,6 +7,6 @@ function About() {
   return (
     <div> About id Page {aboutID} </div>
   )
-}
+} 
 
 export default About

@@ -3,14 +3,24 @@ import Abouts from "./[aboutID]/abouts/[aboutsID]"
 
 function About() {
   return (
-    <div>About
-
+    <div>
+<p> About</p>
+      <div>
+        <div>
         <Link href={'/'}>
             <a> go to main pages</a>
         </Link>
-        <Link href={'./aboutID/abouts/aboutsID'}>
-        <a>      <Abouts/></a>
+        </div>
+     
+
+      <div>
+      <Link href={'./aboutID/abouts/aboutsID'}>
+        <div>
+        <Abouts/>
+          </div>     
         </Link>
+      </div>
+      </div>
     </div>
   )
 }
