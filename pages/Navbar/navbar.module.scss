@@ -1,3 +1,4 @@
+@import '../../styles/mixen';
 .app__navbar {
   width: 100%;
   max-width: 1100px;
@@ -53,12 +54,13 @@
     flex-direction: column;
     cursor: pointer;
 
-    div {
+    span {
       width: 5px;
       height: 5px;
       border-radius: 50%;
       background-color: transparent;
       margin-bottom: 5px;
+      display: block;
     }
 
     a {
@@ -69,14 +71,12 @@
       font-weight: 500;
       transition: 0.3s all ease-in-out;
       &:hover {
-        color: var(--secondary-color);
+        color: g$gray;
       }
     }
     &:hover {
-      div {
-        background-color: var(
-          --secondary-color
-        );
+      span {
+        background-color: $gray;
       }
     }
   }

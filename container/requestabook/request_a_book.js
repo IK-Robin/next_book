@@ -8,7 +8,7 @@ import styled from './requestBook.module.scss';
 
 function RequestABook() {
   return (
-    <Container fluid>
+    <Container fluid >
       <Container>
         <div className="block_title title ">
           <H4
@@ -99,7 +99,7 @@ function RequestABook() {
                 variant="solid"
                 color="primary"
               >
-                {' '}
+          
                 solid
               </Button>
             </form>

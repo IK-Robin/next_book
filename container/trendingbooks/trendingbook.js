@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Booklistmap, Container, H4 } from '../../components';
+import { Container } from 'react-bootstrap';
+import { Booklistmap, H4 } from '../../components';
 import styled from '../../styles/book_list.module.scss';
 import tdatas from './treandin_data';
 function Trendingbook() {
     const [tdata, setTdata] = useState(tdatas)
   return (
-<Container fluid={'fluid bg-light'}  >
+<Container fluid >
 <Container>
     <section className={styled.bookList}>
 <div className={styled.block_title}>

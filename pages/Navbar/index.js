@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
 import {
-    HiMenuAlt4,
-    HiX
+  HiMenuAlt4,
+  HiX
 } from 'react-icons/hi';
 import styled from './navbar.module.scss';
 function Navbar() {
@@ -29,7 +29,7 @@ function Navbar() {
         {[
           'Home',
           'About',
-          'work',
+          'Job News',
           'skill',
           'contact',
         ].map((item,index) => {
@@ -38,7 +38,7 @@ function Navbar() {
               key={index * Math.random(3000 * 2000)}
               className={`app__flex ${styled.p_text} `}
             >
-              <div />
+              <span/>
               {/* <Link href={`./home`}>
                  <a >{item} </a>
                  </Link> */}

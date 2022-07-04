@@ -38,19 +38,19 @@ function Footer() {
         <Row>
           <div className={`${styled.social} d-flex justify-content-center align-item-center`}>
             <Link href={'https://www.google.com/' } >
-              <FaFacebookF title='Facebook' />
+              <a> <FaFacebookF title='Facebook' /></a>
             </Link>
             <Link href={'https://www.google.com/' }>
-             <AiOutlineTwitter title='twitter'/>
+          <a> <AiOutlineTwitter title='twitter'/></a>
             </Link>
             <Link href={'https://www.google.com/' }>
-              <FaPinterestP title='pinterest'/>
+             <a> <FaPinterestP title='pinterest'/></a>
             </Link>
             <Link href={'https://www.google.com/' }>
-              <AiFillLinkedin title='linkdin' />
+              <a ><AiFillLinkedin title='linkdin' /></a>
             </Link>
             <Link href={'https://www.google.com/' }>
-              <BsInstagram title='instagram'/>
+              <a><BsInstagram title='instagram'/></a>
             </Link>
           </div>
         </Row>

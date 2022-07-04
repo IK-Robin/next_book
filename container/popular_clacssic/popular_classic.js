@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import { Booklistmap, Container, H4 } from '../../components';
+import { Container } from 'react-bootstrap';
+import { Booklistmap, H4 } from '../../components';
 import styled from '../../styles/book_list.module.scss';
 import data from './popular_data';
 function PopularClassic() {
 
     const [populardata, setPopulardata] = useState(data);
   return (
-    <Container fluid={'fluid'} >
+    <Container fluid >
     <Container>
         <section className={styled.bookList}>
     <div className={styled.block_title}>

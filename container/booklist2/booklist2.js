@@ -13,7 +13,7 @@ function Booklist2() {
               className={styled.bookList}
             >
               <div className={styled.block_title}>
-              <H4 text = {'second book of the week'} span='(view all)'/>
+              <H4 text = {'second book of the week'} link={'/home'} span='(view all)'/>
        
 
               </div>
