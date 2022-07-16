@@ -21,9 +21,10 @@ function Navbar() {
                     return (
                         <li key={`link-${item}`} className={`app__flex ${styled.p_text} ` }>
                             <div />
-                 <Link href={`/${item}`}>
-                 <a >{item} </a>
-                 </Link>
+                            <Link
+                href={ item === 'Home' ? '/':`/?${item.toLocaleLowerCase()}`} >
+                <a>{item}</a>
+              </Link>
                         </li>
                     );
                 })}

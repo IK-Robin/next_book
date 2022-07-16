@@ -6,7 +6,12 @@ const people = [
       image: images.books1,
         
       name: 'maria ferguson',
-      title: 'office manager',
+      writer: 'Ikr ',
+      downloado:`This book is available for free download in a 
+      number of formats - including epub, pdf, azw, mobi and more.
+      You can also read the full text online using our ereader.`,
+      date: '2014',
+      page:349,
       quote:
         'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
     },

@@ -15,7 +15,7 @@ a {
 .hide {
   display: none !important;
 }
-.container {
+.containers {
   @media screen and (min-width: 576px) {
     width: 100%;
     max-width: 100%;
@@ -33,4 +33,14 @@ a {
 }
 .title {
   margin: 0 auto 35px;
+}
+.d_column {
+  @media screen and (max-width: 676px) {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+  }
 }

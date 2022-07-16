@@ -1,10 +1,10 @@
 
 import Link from 'next/link'
 import styled from './titleh4.module.scss'
-function Titleh4({ text, span, link }) {
+function Titleh4({ text, span,  }) {
   return (
     <h4 className={styled.block_title} >
-        {text} <Link href={`${link}`}>
+        {text} <Link href={'/'}>
         <a> {span}</a>
         </Link>
         

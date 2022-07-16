@@ -42,8 +42,7 @@ function Navbar() {
               {/* <Link href={`./home`}>
                  <a >{item} </a>
                  </Link> */}
-              <Link
-                href={ item === 'Home' ? '/':`/${item.toLocaleLowerCase()}`} >
+              <Link href={ item === 'Home' ? '/':`/${item.toLocaleLowerCase()}`} >
                 <a>{item}</a>
               </Link>
             </li>
@@ -90,14 +89,17 @@ function Navbar() {
                     key={item}
                     className={`app__flex ${styled.p_text} `}
                   >
-                    <a
+                    <Link href={ item === 'Home' ? '/':`/${item.toLocaleLowerCase()}`} >
+                <a>{item}</a>
+              </Link>
+                    {/* <a
                       href={`#${item}`}
                       onClick={() =>
                         setToggle(false)
                       }
                     >
                       {item}
-                    </a>
+                    </a> */}
                   </li>
                 );
               })}
