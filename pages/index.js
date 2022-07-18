@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Navbar } from '../components'
 import { Maincontainer } from '../container'
 import styled from '../styles/app.module.scss'
 function Home() {
@@ -8,25 +7,12 @@ function Home() {
      
    
 <Maincontainer/>
-<Navbar/>
+
 <Link href={'/home'}>
   <a > go to home</a>
 </Link>
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
     </div>
   )
 }

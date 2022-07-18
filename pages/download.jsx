@@ -35,7 +35,7 @@ function Downlaods() {
                   quote
                 } = itme;
                 return (
-                  <div key={index.id} className={`d-flex  justify-content-center2 d_column `}>
+                  <div key={index * Math.random( 38877* 39998898)} className={`d-flex  justify-content-center2 d_column `}>
                     <div className={`col-xs-12 col-sm-4  ${styled.down_column} `}>
                      <div className={`${styled.downloads}`}>                     <Image
                         src={image}

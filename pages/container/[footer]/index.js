@@ -20,7 +20,7 @@ function Footer() {
 
   return (
     <>
-      <Container className={styled.footer}>
+      <Container fluid className={styled.footer}>
         <Row className="">
           <div className={`${styled.footerTop} col-md-4 col-sm-4  d-flex align-items-center justify-content-around `}>
             <Link href={'./[about]'}>

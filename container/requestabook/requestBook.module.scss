@@ -1,11 +1,16 @@
 @import '../../styles/mixen';
+.bookTitle {
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
 .imgs {
   width: 500px;
   height: 400px;
   position: relative;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px
-    1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 30px 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -16,23 +21,27 @@
     font-size: 30px;
     margin: 10px auto;
   }
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 }
 
 .RequestABook {
-  width: 500px;
-  height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px
-    1px 4px;
+  // width: 500px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   margin: 0 20px;
   text-align: center;
-  padding: 0 35px;
+  padding: 40px 35px;
 
   h4 {
     margin: 15px auto 25px auto;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
-  .input {
-    justify-content: space-between !important;
-  }
+
   .book_name {
     margin: 22px auto;
     display: block;
@@ -41,4 +50,9 @@
   //   background-color: blue;
   //   color: white;
   // }
+}
+.RequestABooks {
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+  }
 }

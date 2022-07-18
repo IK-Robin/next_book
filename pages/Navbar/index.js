@@ -30,7 +30,7 @@ function Navbar() {
           'Home',
           'About',
           'Job News',
-          'skill',
+          'download',
           'contact',
         ].map((item,index) => {
           return (
@@ -81,7 +81,7 @@ function Navbar() {
                 'Home',
                 'About',
                 'work',
-                'skill',
+                'download',
                 'contact',
               ].map((item) => {
                 return (
@@ -89,7 +89,7 @@ function Navbar() {
                     key={item}
                     className={`app__flex ${styled.p_text} `}
                   >
-                    <Link href={ item === 'Home' ? '/':`/${item.toLocaleLowerCase()}`} >
+                    <Link href={ item === 'Home' ? '/':`${item.toLocaleLowerCase()}`} >
                 <a>{item}</a>
               </Link>
                     {/* <a

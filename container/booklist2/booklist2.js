@@ -13,11 +13,16 @@ function Booklist2() {
               className={styled.bookList}
             >
               <div className={styled.block_title}>
-              <H4 text = {'Current affier'} link={'/home'} span='(view all)'/>
+              <H4 text = {'Current affier'} href={'download'} span='(view all)'/>
        
 
               </div>
     
+
+    <h1>
+
+      
+      </h1>
             
               <Booklistmap  tours={bookList} classNames={`app__flex ${styled.bookSection}`} slice={4} />
      
